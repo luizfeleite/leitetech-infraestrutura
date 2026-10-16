@@ -30,7 +30,7 @@ Demais informações na tabela-mestra.xlsx
 
 Organização do repositório:
 README.md
-empresa/            					empresa, estrutura e tabela-mestra.xlsx 
+empresa/            					empresa, estrutura e Tabela Mestra.xlsx 
 arquitetura/       					perfis, compatibilidade, servidor, RAID, energia e orçamento
 sistemas-operacionais/ 					sistemas, serviços, permissões, segurança, backup e licenças 
 redes/                   				plantas, topologias, VLANs, IPv4, Wi-Fi, equipamentos e orçamento 
