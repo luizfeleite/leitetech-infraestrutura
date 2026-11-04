@@ -1,60 +1,39 @@
 Projeto de Infraestrutura | LeiteTech Soluções
-
----------------------------------------------------------------------------------------------------------
-
-Resumo:
-Planejamento de infraestrutura de TI para a LeiteTech Soluções, empresa fictícia de desenvolvimento de 
-software e suporte técnico, instalada em um prédio único de 4 andares com 50 funcionários.
-
-
----------------------------------------------------------------------------------------------------------
-
-A empresa:
-1º Andar		Recepção e Operações/Suporte 					10 Funcionários
-2º Andar		Financeiro, RH e Comercial 					15 Funcionários
-3º Andar		Desenvolvimento, Gerência de Projetos, QA e Design 					15 Funcionários
-4º Andar		TI/Infraestrutura (sala de servidores) e Diretoria		10 Funcionários
-
-
-Total											50 Funcionários
-
----------------------------------------------------------------------------------------------------------
-
-Horário de funcionamento:
-Segunda a sexta, 08h às 18h.
-
-Demais informações na tabela-mestra.xlsx
-
-
----------------------------------------------------------------------------------------------------------
-
-Organização do repositório:
-README.md
-empresa/            					empresa, estrutura e Tabela Mestra.xlsx 
-arquitetura/       					perfis, compatibilidade, servidor, RAID, energia e orçamento
-sistemas-operacionais/ 					sistemas, serviços, permissões, segurança, backup e licenças 
-redes/                   				plantas, topologias, VLANs, IPv4, Wi-Fi, equipamentos e orçamento 
-iot/                        				código, circuito, testes e link do Tinkercad 
-evidencias/       					capturas e comprovações 
-referencias/						fontes consultadas
-
-
----------------------------------------------------------------------------------------------------------
-
-Links técnicos Tinkercad (IoT):
-
----------------------------------------------------------------------------------------------------------
-
-Ferramentas: 
+Resumo
+Planejamento de infraestrutura de TI para a LeiteTech Soluções, empresa fictícia de desenvolvimento de software e suporte técnico, instalada em um prédio único de 4 andares com 50 funcionários. A solução integra quatro áreas sobre a mesma empresa: Arquitetura de Computadores, Sistemas Operacionais, Redes de Computadores e Internet das Coisas.
+A empresa
+Andar	Departamentos	Funcionários
+1º	Recepção e Operações/Suporte	10
+2º	Financeiro, RH e Comercial	15
+3º	Desenvolvimento, Gerência de Projetos, QA e Design	15
+4º	TI/Infraestrutura (sala de servidores) e Diretoria	10
+	Total	50
+Horário de funcionamento: segunda a sexta, 08h às 18h.
+Os números detalhados (departamentos, desktops, notebooks e periféricos) estão em `empresa/Tabela Mestra.xlsx`.
+Organização do repositório
+Pasta	Conteúdo
+`empresa/`	Empresa, estrutura e `Tabela Mestra.xlsx`
+`arquitetura/`	Perfis de computadores, compatibilidade, servidor, RAID, energia e orçamento
+`sistemas-operacionais/`	Sistemas, serviços, permissões, segurança, backup e licenças
+`redes/`	Plantas, topologias, VLANs, IPv4, Wi-Fi, equipamentos e orçamento
+`iot/`	Código, circuito, testes e descrição do protótipo de temperatura
+`evidencias/`	Capturas e comprovações
+`referencias/`	Fontes consultadas
+Arquivos de `arquitetura/`:
+Arquivo	Conteúdo
+`Perfis e Compatibilidade.xlsx`	Perfis de computadores, configurações e compatibilidade
+`Servidores Raid Energia.xlsx`	Serviços, servidor, RAID, backup (NAS) e nobreak
+`Inventario e Orcamento.xlsx`	Orçamento, conferência de quantidades, comparação e fontes
+Links técnicos
+Item	Link
+Tinkercad (IoT)	https://www.tinkercad.com/things/cH5nLgESfBo-monitor-de-temperatura-da-leitetech
+Descrição do protótipo IoT	`iot/descricao-do-projeto.md`
+Ferramentas
 Excel, Word, Draw.io, Packet Tracer, Tinkercad e GitHub
-
-
-
----------------------------------------------------------------------------------------------------------
-
-Andamento:
-Empresa e tabela-mestra:				 Concluído - 01/10/2026
-Arquitetura:                     Concluído - 16/10/2026
-Sistemas Operacionais:
-Redes:
-IoT:
+Andamento
+Área	Situação
+Empresa e tabela-mestra	Concluído - 01/10/2026
+Arquitetura	Concluído - 16/10/2026
+Sistemas Operacionais	A fazer
+Redes	A fazer
+IoT	Concluído - 04/11/2026
