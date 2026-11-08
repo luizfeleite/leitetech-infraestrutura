@@ -42,7 +42,7 @@ Arquivos de `arquitetura/`:
 
 | Item | Link |
 |---|---|
-| Tinkercad (IoT) | https://www.tinkercad.com/things/cH5nLgESfBo-monitor-de-temperatura-da-leitetech |
+| Tinkercad (IoT) | [https://www.tinkercad.com/things/cH5nLgESfBo-monitor-de-temperatura-da-leitetech](https://www.tinkercad.com/things/cH5nLgESfBo-monitor-de-temperatura-da-leitetech) |
 | Descrição do protótipo IoT | [`iot/descricao-do-projeto.md`](iot/descricao-do-projeto.md) |
 
 ## Ferramentas
