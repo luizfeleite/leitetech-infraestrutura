@@ -27,8 +27,8 @@ Os números detalhados (departamentos, desktops, notebooks e periféricos) estã
 | `sistemas-operacionais/` | Sistemas, serviços, permissões, segurança, backup e licenças |
 | `redes/` | Plantas, topologias, VLANs, IPv4, Wi-Fi, equipamentos e orçamento |
 | `iot/` | Código, circuito, testes e descrição do protótipo de temperatura |
-| `evidencias/` | Capturas e comprovações |
-| `referencias/` | Fontes consultadas |
+| `evidencias/` | Capturas e comprovações ([`README`](evidencias/README.md)) |
+| `referencias/` | Fontes consultadas ([`fontes-consultadas.md`](referencias/fontes-consultadas.md)) |
 
 Arquivos de `arquitetura/`:
 
@@ -49,23 +49,17 @@ Arquivos de `sistemas-operacionais/`:
 | `operacao-e-seguranca.pdf` e `.docx` | Plano de operação e segurança |
 | `backup-recuperacao-licencas.xlsx` | Backup, recuperação e licenças com custo |
 
-## Links técnicos
+Arquivos de `redes/`:
 
-| Item | Link |
+| Arquivo | Conteúdo |
 |---|---|
-| Tinkercad (IoT) | [https://www.tinkercad.com/things/cH5nLgESfBo-monitor-de-temperatura-da-leitetech](https://www.tinkercad.com/things/cH5nLgESfBo-monitor-de-temperatura-da-leitetech) |
-| Descrição do protótipo IoT | [`iot/descricao-do-projeto.md`](iot/descricao-do-projeto.md) |
+| `plano-ipv4.xlsx` | Plano de endereçamento IPv4 e VLANs |
+| `vlans-e-acessos.xlsx` | VLANs e regras de acesso do firewall |
+| `inventario-e-dimensionamento.xlsx` | Equipamentos, portas, Wi-Fi, cabeamento e energia |
+| `orcamento.xlsx` | Orçamento de rede |
+| `planta-andar-1.png` a `planta-andar-4.png` e `plantas.drawio` | Plantas dos 4 andares |
+| `topologia-fisica.png` e `topologia-logica.png` | Topologias da rede |
+| `topologia.pkt` e `topologia-packet-tracer.png` | Simulação no Packet Tracer |
+| `testes-e-validacao.pdf` e `T1` a `T10` (`.png`) | Testes de validação e capturas |
 
-## Ferramentas
-
-Excel, Word, Draw.io, Packet Tracer, Tinkercad e GitHub
-
-## Andamento
-
-| Área | Situação |
-|---|---|
-| Empresa e tabela-mestra | Concluído - 01/10/2026 |
-| Arquitetura | Concluído - 16/10/2026 |
-| Sistemas Operacionais | Concluído - 09/11/2026 |
-| Redes | Concluído - 08/11/2026 |
-| IoT | Concluído - 04/11/2026 |
+## Resultado em
