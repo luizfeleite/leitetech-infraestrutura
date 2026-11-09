@@ -55,6 +55,6 @@ Excel, Word, Draw.io, Packet Tracer, Tinkercad e GitHub
 |---|---|
 | Empresa e tabela-mestra | Concluído - 01/10/2026 |
 | Arquitetura | Concluído - 16/10/2026 |
-| Sistemas Operacionais | Em andamento |
+| Sistemas Operacionais | Concluído - 09/11/2026 |
 | Redes | Concluído - 08/11/2026 |
 | IoT | Concluído - 04/11/2026 |
