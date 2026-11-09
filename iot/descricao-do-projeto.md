@@ -36,7 +36,7 @@ Este protótipo produz um aviso referente à temperatura para a equipe de TI: um
 
 ## 5. Lógica do código (`codigo.ino`)
 
-O Arduino lê o pino A0 e recebe um número de 0 a 1023, que chamei de leitura, e converte em volts: leitura × 5 ÷ 1023.
+O Arduino lê o pino A0 e recebe um número de 0 a 1023, chamado aqui de leitura, e converte em volts: leitura × 5 ÷ 1023.
 
 Converte novamente, só que de volts para °C: (tensão − 0,5) × 100, porque o TMP36 entrega 0,5 V a 0 °C e sobe 0,01 V por grau.
 
@@ -68,3 +68,6 @@ Por fim, mostra os valores no Monitor Serial e espera um pouco antes de repetir,
 
 O protótipo passou nos três testes e acendeu o LED esperado em cada faixa. Para a empresa, ele serve como aviso antecipado de aquecimento da sala de servidores, para a equipe de TI agir antes de desligamentos ou danos.
 
+## 8. Integração com a rede da empresa (etapa futura)
+
+O protótipo do Tinkercad usa Arduino Uno, sensor TMP36 e LEDs, sem módulo de rede. Na empresa, o sensor seria ligado à rede com um módulo Ethernet, na VLAN 50 (IoT), IP 10.50.50.2 (SENSOR-TEMP01), e enviaria a temperatura ao Zabbix do SRV-MON01 (10.50.20.8, porta TCP 10051), conforme o plano de rede e a regra de firewall da disciplina de Redes. Essa parte está prevista no projeto, mas não foi montada no protótipo.
