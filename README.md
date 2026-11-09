@@ -62,4 +62,40 @@ Arquivos de `redes/`:
 | `topologia.pkt` e `topologia-packet-tracer.png` | Simulação no Packet Tracer |
 | `testes-e-validacao.pdf` e `T1` a `T10` (`.png`) | Testes de validação e capturas |
 
-## Resultado em
+## Resultado em números
+
+| Item | Valor |
+|---|---|
+| Funcionários | 50 (40 desktops e 10 notebooks) |
+| Arquitetura (equipamentos) | R$ 545.778,84 |
+| Redes (equipamentos) | R$ 49.873,59 |
+| Licenças de software | R$ 55.974,04 |
+| **Total estimado do projeto** | **R$ 651.626,47** |
+
+## Como as áreas se integram
+
+- **Arquitetura:** servidor Dell PowerEdge R360 com RAID 10, NAS de backup e nobreaks.
+- **Sistemas Operacionais:** Windows 11 Pro nas estações e Windows Server 2022 com Hyper-V, rodando 6 servidores virtuais (AD, arquivos, Git, banco de dados, ERP e monitoramento).
+- **Redes:** 4 switches, 8 pontos de acesso e firewall, em 10 VLANs com endereços 10.50.x.x.
+- **IoT:** o sensor de temperatura da sala de servidores (VLAN 50) está previsto para enviar dados ao Zabbix do servidor de monitoramento.
+
+## Links técnicos
+
+| Item | Link |
+|---|---|
+| Tinkercad (IoT) | https://www.tinkercad.com/things/cH5nLgESfBo-monitor-de-temperatura-da-leitetech |
+| Descrição do protótipo IoT | [`iot/descricao-do-projeto.md`](iot/descricao-do-projeto.md) |
+
+## Ferramentas
+
+Excel, Word, Draw.io, Packet Tracer, Tinkercad e GitHub
+
+## Andamento
+
+| Área | Situação |
+|---|---|
+| Empresa e tabela-mestra | Concluído - 01/10/2026 |
+| Arquitetura | Concluído - 16/10/2026 |
+| Sistemas Operacionais | Concluído - 09/11/2026 |
+| Redes | Concluído - 08/11/2026 |
+| IoT | Concluído - 04/11/2026 |
