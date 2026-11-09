@@ -38,6 +38,17 @@ Arquivos de `arquitetura/`:
 | `Servidores Raid Energia.xlsx` | Serviços, servidor, RAID, backup (NAS) e nobreak |
 | `Inventario e Orcamento.xlsx` | Orçamento, conferência de quantidades, comparação e fontes |
 
+Arquivos de `sistemas-operacionais/`:
+
+| Arquivo | Conteúdo |
+|---|---|
+| `matriz-de-sistemas.xlsx` | Sistemas por perfil e verificação de compatibilidade |
+| `catalogo-de-servicos.xlsx` | Catálogo de serviços e recursos das máquinas virtuais |
+| `servicos.drawio` | Representação do servidor físico e das máquinas virtuais |
+| `usuarios-grupos-permissoes.xlsx` | Grupos do Active Directory e permissões |
+| `operacao-e-seguranca.pdf` e `.docx` | Plano de operação e segurança |
+| `backup-recuperacao-licencas.xlsx` | Backup, recuperação e licenças com custo |
+
 ## Links técnicos
 
 | Item | Link |
